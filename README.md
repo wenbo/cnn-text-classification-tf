@@ -1,10 +1,10 @@
-## http://www.tuicool.com/articles/jmYjey
-## http://f.dataguru.cn/thread-637971-1-1.html
+- http://www.tuicool.com/articles/jmYjey
+- http://f.dataguru.cn/thread-637971-1-1.html
 
-#bob@bob-OptiPlex-3020:~/workspace/github/cnn-text-classification-tf$ tensorboard --logdir ./runs/1484553815/summaries/
-Starting TensorBoard b'39' on port 6006
-(You can navigate to http://127.0.1.1:6006)
-#https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tensorboard/README.md
+- bob@bob-OptiPlex-3020:~/workspace/github/cnn-text-classification-tf$ tensorboard --logdir ./runs/1484553815/summaries/ <br/>
+Starting TensorBoard b'39' on port 6006<br/>
+(You can navigate to http://127.0.1.1:6006)<br/>
+- https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tensorboard/README.md
 
 <code>bob@bob-OptiPlex-3020:~/workspace/github/cnn-text-classification-tf$ python3 train.py
 Evaluation:
