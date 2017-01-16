@@ -1,3 +1,19 @@
+## http://www.tuicool.com/articles/jmYjey
+## http://f.dataguru.cn/thread-637971-1-1.html
+
+#bob@bob-OptiPlex-3020:~/workspace/github/cnn-text-classification-tf$ tensorboard --logdir ./runs/1484553815/summaries/
+Starting TensorBoard b'39' on port 6006
+(You can navigate to http://127.0.1.1:6006)
+#https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tensorboard/README.md
+
+<code>bob@bob-OptiPlex-3020:~/workspace/github/cnn-text-classification-tf$ python3 train.py
+Evaluation:
+2017-01-16T18:17:26.303447: step 30000, loss 10.7655, acc 0.711069
+Saved model checkpoint to /home/bob/workspace/github/cnn-text-classification-tf/runs/1484553815/checkpoints/model-30000
+</code>
+
+
+
 **[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
 It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
