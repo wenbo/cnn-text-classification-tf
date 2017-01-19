@@ -2,7 +2,7 @@ import numpy as np
 import re
 import itertools
 from collections import Counter
-
+import pdb
 
 def clean_str(string):
     """
@@ -37,6 +37,7 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     negative_examples = [s.strip() for s in negative_examples]
     # Split by words
     x_text = positive_examples + negative_examples
+    pdb.set_trace()
     x_text = [clean_str(sent) for sent in x_text]
     # Generate labels
     positive_labels = [[0, 1] for _ in positive_examples]
